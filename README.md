@@ -267,6 +267,8 @@ I'm sure that you will face some issues such as the video player is always loade
 
 You need to add more options to the `WebView` to add inline video player functionality. You can update the `WebView` widget as follows
 
+> For android the `FullScreen` capability is still not available till today, you can read more about it in [here](https://github.com/flutter/flutter/issues/27101)
+
 ```dart
 WebView(
     initialUrl: 'https://MintyHoneydewInstitutes.arryanggaputra.repl.co',
