@@ -52,8 +52,8 @@ As a first step you need to prepare a simple HTML page that contain a Dailymotio
     // initiate a variable to store the player object.
     var currentPlayer;
 
+    // Create player in #player1
     dailymotion
-        // Create player in #player1
       .createPlayer("player1", {
         video: "x84sh87",
         params: {
@@ -75,11 +75,11 @@ As a first step you need to prepare a simple HTML page that contain a Dailymotio
     function pauseTheVideo() {
       currentPlayer.pause()
     }
-  </script>
+</script>
 
 ```
 
-You can save the file to a server or provider such as Codepen, Repl.it, and so on. So you have a URL ready to be displayed in the application. Pada contoh repository ini, file html dapat diakses di https://MintyHoneydewInstitutes.arryanggaputra.repl.co
+You can save the file to a server or provider such as Codepen, Repl.it, and so on. So you have a URL ready to be displayed in the application. You can access the sample file  https://MintyHoneydewInstitutes.arryanggaputra.repl.co
 
 ## Flutter Preparation
 
